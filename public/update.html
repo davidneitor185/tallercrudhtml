@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/estilo.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <title>Bases de datos</title>
+  
+</head>
+
+<body>
+    <div class="container">
+        <div class="row pt-5">
+          <div class="col-3">
+            <button type="button" onclick="location.href='create.html'" class="btn btn-secondary btn-block">Create</button>
+          </div>
+          <div class="col-3">
+            <button type="button" onclick="location.href='read.html'" class="btn btn-secondary btn-block">Read</button>
+          </div>
+          <div class="col-3">
+            <button type="button" onclick="location.href='update.html'" class="btn btn-secondary btn-block">Update</button>
+          </div>
+          <div class="col-3">
+            <button type="button" onclick="location.href='erase.html'" class="btn btn-secondary btn-block">Erase</button>
+          </div>
+        </div>
+      </div>
+  <div class="cont1">
+    <form id="contact" action="" method="put">
+        <h3>Taller Base de datos UNIVALLE</h3>
+        <h4>Actualizar Pacientes</h4>
+        <fieldset>
+          <input placeholder="Nombre Paciente" name="nombre" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Apellido Paciente" name="apellido" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Id Paciente" name="identificacion" type="text" tabindex="2" required>
+        </fieldset>
+        
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" >Actualizar Paciente</button>
+        </fieldset>
+  
+      </form>
+    
+  </div>
+
+
+  <script src="update.js"></script>
+</body>
+
+</html>
